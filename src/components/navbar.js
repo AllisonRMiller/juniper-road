@@ -21,7 +21,7 @@ const TopNav = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="primary" dark expand="md">
         <NavbarBrand href="/">Juniper Road</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
