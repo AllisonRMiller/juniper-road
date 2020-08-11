@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 import { Row, Col, Navbar, CardTitle, CardBody, CardText, Button, Container, Card, CardSubtitle, Badge, CardHeader } from 'reactstrap';
 import './App.css';
+import Header from './components/header.js';
 import Menu from './components/menu.js';
 import TopNav from './components/navbar.js';
 
@@ -18,6 +19,7 @@ function App() {
   return(
     <div>
       <TopNav />
+      <Header />
     <Router>
       <Switch>
         {/* <Route exact path = "/">

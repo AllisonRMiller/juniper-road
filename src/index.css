@@ -11,3 +11,21 @@ body {
 .navbar, h3, h5, h1{
   font-family: 'Cormorant Garamond', serif;
 }
+#AboveTheFold{
+  background-image: url("./patrick-hendry-qSmomJCEUiA-unsplash.jpg");
+}
+
+
+#Contact{
+  background-image: url("./jez-timms-IlpXSjNSNRI-unsplash.jpg");
+}
+
+#AboveTheFold, #Contact{
+  background-size: cover;
+  height: 100%;
+  /* width: 100%; */
+}
+
+#AboveTheFold, #Contact, #Hours{
+  text-align: center;
+}
