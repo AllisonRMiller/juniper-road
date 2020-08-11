@@ -12,6 +12,7 @@ import './App.css';
 import Header from './components/header.js';
 import Menu from './components/menu.js';
 import TopNav from './components/navbar.js';
+import Visit from './components/visit.js';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route> */}
         <Route path="/menu">
           <Menu/>
+        </Route>        
+        <Route path="/visit">
+          <Visit/>
         </Route>
       </Switch>
     </Router></div>
