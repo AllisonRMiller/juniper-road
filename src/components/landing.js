@@ -8,12 +8,15 @@ function Landing() {
     return (
 
 <>
+<div id="LandBG">
 {/* <header class="masthead"> */}
   <Container fluid 
 //   className="h-100" 
   id="AboveTheFold" className="mb-0">
   <img src="./components/Toast_Clink.png" alt="logo reading Juniper Road: Rustic Fine Dining over two crossed arrows" className="mt-3" />
-    <Row className="h-100 align-items-center">
+    <Row 
+    className="h-75 align-items-center"
+    >
       <Col className="col-12 text-center">
       <Row>
     <Col>
@@ -76,6 +79,7 @@ function Landing() {
                     
         </Row>
                 </Container> */}
+                </div>
   </>
 
     )

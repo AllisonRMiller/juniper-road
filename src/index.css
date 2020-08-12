@@ -13,7 +13,8 @@ body {
 .navbar, h3, h5, h1{
   font-family: 'Cormorant Garamond', serif;
 }
-#AboveTheFold{
+#LandBG{
+  height: 100vh;
   background-image: url("./patrick-hendry-qSmomJCEUiA-unsplash.jpg");
 }
 
