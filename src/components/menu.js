@@ -31,7 +31,7 @@ const [loaded, setLoaded] = useState(false);
 
 
   useEffect((props) => {
-    debugger;
+    // debugger;
     async function getStorage(x) {
       var prevMenu = JSON.parse(localStorage.getItem(x.name));
           if (prevMenu === null) {
@@ -153,7 +153,7 @@ const [loaded, setLoaded] = useState(false);
     return (
       <Container>
           <Row>
-              <Col className="col-md-12">
+              <Col className="col-xs-12">
                   <Navbar className="navbar navbar-expand-md navbar-dark bg-dark">
                       <h3 className="navbar-text mx-auto text-light mb-0">{x.name}</h3>
                   </Navbar>
@@ -183,10 +183,10 @@ const [loaded, setLoaded] = useState(false);
     var price = x.price;
     var id = x.id;
     return (
-      <Col className="col-md-3" key={id} id={id}>
+      <Col md="3" key={id} id={id}>
         <Card className="h-100">
-          <CardBody>
             {name !=null &&<CardHeader><h5>{name}</h5></CardHeader>}
+          <CardBody>
             <CardText>{text}</CardText>
             <CardText className="text-right">${price}</CardText>
           </CardBody>

@@ -8,7 +8,7 @@ import {
   useHistory
 } from 'react-router-dom';
 import { Row, Col, Navbar, CardTitle, CardBody, CardText, Button, Container, Card, CardSubtitle, Badge, CardHeader } from 'reactstrap';
-import './App.css';
+// import './App.css';
 import Landing from './components/landing.js';
 import Menu from './components/menu.js';
 import TopNav from './components/navbar.js';
