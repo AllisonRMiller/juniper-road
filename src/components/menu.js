@@ -197,10 +197,19 @@ const [loaded, setLoaded] = useState(false);
 
 
   return (
+<>
+    <Container fluid className="text-align-center mb-2 mt-2 bg-light" id="Contact">
+<Row>
+    <Col>
+        <h1 className="mb-3 mt-3 text-secondary">Menu</h1>
+    </Col>
+    </Row>
+    </Container>
     <div className="bg-light" id="Menu">
 
     {Menus.map(y=>generateTitle(y))}
     </div>
+    </>
   );
 }
 

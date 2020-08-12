@@ -9,10 +9,11 @@ import {
 } from 'react-router-dom';
 import { Row, Col, Navbar, CardTitle, CardBody, CardText, Button, Container, Card, CardSubtitle, Badge, CardHeader } from 'reactstrap';
 import './App.css';
-import Header from './components/header.js';
+import Landing from './components/landing.js';
 import Menu from './components/menu.js';
 import TopNav from './components/navbar.js';
 import Visit from './components/visit.js';
+// import Footer from './components/footer.js';
 
 
 function App() {
@@ -20,12 +21,12 @@ function App() {
   return(
     <div>
       <TopNav />
-      <Header />
+      {/* <Header /> */}
     <Router>
       <Switch>
-        {/* <Route exact path = "/">
+        <Route exact path = "/">
           <Landing/>
-        </Route> */}
+        </Route>
         <Route path="/menu">
           <Menu/>
         </Route>        
@@ -33,7 +34,10 @@ function App() {
           <Visit/>
         </Route>
       </Switch>
-    </Router></div>
+    </Router>
+    {/* <Footer/> */}
+
+    </div>
   )
 
 }

@@ -33,7 +33,7 @@ const TopNav = (props) => {
               <NavLink href="/visit">Hours & Location</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
     </div>
