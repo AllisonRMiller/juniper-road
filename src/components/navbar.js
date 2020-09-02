@@ -29,9 +29,9 @@ const TopNav = (props) => {
             <NavItem>
               <NavLink href="/menu">Menu</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/visit">Hours & Location</NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
